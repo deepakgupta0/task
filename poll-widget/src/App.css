@@ -1,0 +1,8 @@
+
+.poll-widget-root * {
+  box-sizing: border-box;
+}
+.poll-widget-root {
+  font-family: "Courier New", Courier, monospace;
+  color: #121212;
+}

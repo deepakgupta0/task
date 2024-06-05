@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="poll-root-1"></div>
+
+    <script src="./main.js"></script>
+    <script>
+      const pollQuestionsSet1 = [
+        {
+          id: 1,
+          question: "What is your favorite programming language?",
+          options: ["JavaScript", "Python", "Java", "C++", "Ruby"],
+        },
+        {
+          id: 2,
+          question: "What is your favorite movie genre?",
+          options: ["Action", "Comedy", "Drama", "Science Fiction", "Horror"],
+        },
+        {
+          id: 3,
+          question: "Which social media platform do you use the most?",
+          options: ["Facebook", "Instagram", "Twitter", "LinkedIn", "Snapchat"],
+        },
+        {
+          id: 4,
+          question: "What is your favorite season?",
+          options: [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "I don't have a favorite",
+          ],
+        },
+        {
+          id: 5,
+          question: "How do you prefer to travel?",
+          options: ["Car", "Train", "Airplane", "Bicycle", "Walking"],
+        },
+      ];
+      /**
+       * Calls the exported library with selector and set of questions
+       */
+      Poll.initialize("poll-root-1", {
+        questions: pollQuestionsSet1,
+        pollWidgetId: "test-poll-1",
+      });
+    </script>
+  </body>
+</html>
