@@ -29,3 +29,25 @@ Considering these factors, React was chosen as the technology for this task due 
 2. Called the initializer method exported by the producer under the `Poll` module and passed the required configuration.
 ![Consumer Integration](https://github.com/deepakgupta0/task/assets/52995035/cc3a9c76-3966-42df-b3d7-cfa7ba453ff9)
 
+## For Running The Above Code
+
+### Producer Code (present in poll-widget folder)
+#### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+#### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+
+#### `npm run build`
+
+generates dist folder which will have single main.js file
+
+### Consumer Code(present in external-sites folder)
+
+#### just open index.html file in any browser
