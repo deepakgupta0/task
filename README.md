@@ -32,6 +32,8 @@ Considering these factors, React was chosen as the technology for this task due 
 ## For Running The Above Code
 
 ### Producer Code (present in poll-widget folder)
+Go To Poll-Widget Folder and run command
+
 #### `npm start`
 
 Runs the app in the development mode.\
